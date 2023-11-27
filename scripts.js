@@ -8,7 +8,7 @@ function actualizar() {
   };
 
   // Cambia la URL para apuntar a la dirección IP o dominio público de tu ESP32
-  xhttp.open("GET", "http://direccion-ip-de-tu-esp32/datos", true);
+  xhttp.open("GET", "http://192.168.1.138/datos", true);
   xhttp.send();
 }
 
